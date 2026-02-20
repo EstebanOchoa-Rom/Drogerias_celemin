@@ -1,0 +1,172 @@
+# 🗺 ROADMAP OFICIAL — DROGUERÍAS CELEMIN
+
+Este roadmap define el plan estratégico y técnico para construir, lanzar y escalar el sistema de Droguerías Celemin bajo una arquitectura profesional basada en microservicios, buenas prácticas y escalabilidad real.
+
+---
+
+# 🔵 FASE 0 — Fundamentos Técnicos (Arquitectura Sólida)
+
+## 🎯 Objetivo
+Establecer una base técnica limpia, desacoplada y preparada para crecimiento.
+
+## 🔧 Incluye
+- Arquitectura basada en microservicios
+- Docker + Docker Compose
+- Configuración por ambientes (local / staging / production)
+- Logging estructurado
+- Swagger (OpenAPI)
+- Healthchecks y readiness
+- CI básico con GitHub Actions
+- Manejo global de errores
+- Gateway API (BFF)
+
+## 📦 Resultado Esperado
+- Backend levantable completamente en local
+- Microservicios desacoplados
+- Base de datos por servicio
+- Estándares técnicos definidos
+- Proyecto listo para crecer sin refactorizaciones masivas
+
+---
+
+# 🟢 FASE 1 — MVP Comercial Funcional
+
+## 🎯 Objetivo
+Permitir que la droguería pueda vender productos realmente.
+
+## 🖥 Backend
+- auth-service
+- catalog-service
+- inventory-service
+- orders-service
+- gateway-api
+
+## 🌐 Frontend
+- Catálogo público
+- Carrito
+- Checkout
+- Página de confirmación de orden
+- Panel Admin básico
+- Gestión de productos
+- Gestión de inventario por lotes
+- Dashboard de vencimientos
+
+## 📦 Resultado Esperado
+- Usuario puede comprar productos
+- Admin puede gestionar catálogo
+- Admin puede registrar lotes y ver vencimientos
+- Flujo completo de venta funcionando
+- Sistema operativo real
+
+---
+
+# 🟡 FASE 2 — Pagos + Seguridad Empresarial
+
+## 🎯 Objetivo
+Formalizar pagos y mejorar el control interno.
+
+## 🔐 Incluye
+- payments-service
+- Confirmación manual de pagos
+- Soporte para Nequi
+- Subida de comprobantes
+- RBAC avanzado (roles y permisos)
+- Auditoría real de acciones críticas
+
+## 📦 Resultado Esperado
+- Pagos desacoplados del flujo de pedidos
+- Control granular de permisos por módulo
+- Trazabilidad completa
+- Registro auditado de acciones administrativas
+
+---
+
+# 🟠 FASE 3 — Escalabilidad Operativa
+
+## 🎯 Objetivo
+Preparar el sistema para crecimiento real.
+
+## 🏬 Incluye
+- Multi-sede (opcional)
+- Inventario por sede
+- Alertas avanzadas de vencimiento
+- Scheduler opcional
+- Observabilidad (Prometheus + Grafana)
+- Métricas por servicio
+
+## 📦 Resultado Esperado
+- Sistema listo para múltiples sedes
+- Dashboard técnico profesional
+- Métricas de rendimiento
+- Base lista para despliegue en nube
+
+---
+
+# 🟣 FASE 4 — Optimización y Experiencia Premium
+
+## 🎯 Objetivo
+Optimizar rendimiento, SEO y experiencia de usuario.
+
+## ⚡ Incluye
+- Búsqueda avanzada y filtros
+- Optimización de índices en base de datos
+- Gestión avanzada de imágenes
+- Thumbnails y compresión
+- Cache headers adecuados
+- SEO técnico completo
+- Sitemap y OpenGraph
+- Performance frontend (Core Web Vitals)
+
+## 📦 Resultado Esperado
+- Catálogo rápido y escalable
+- Mejor posicionamiento en Google
+- Imágenes optimizadas
+- Mejor tasa de conversión
+
+---
+
+# 🔴 FASE 5 — Enterprise Ready (Futuro / Escalamiento)
+
+## 🎯 Objetivo
+Escalar a nivel empresarial.
+
+## 🚀 Posibles Expansiones
+- Redis (caching + rate limiting)
+- CDN real (S3 + CloudFront)
+- Auto-scaling
+- CI/CD completo para producción
+- Kubernetes
+- Integración real con API de Nequi
+- Notificaciones WhatsApp
+- Reportes contables
+- Exportación fiscal
+- Backups automáticos
+- Retención avanzada de auditoría
+
+---
+
+# 📊 VISIÓN GENERAL
+
+| Fase | Nivel | Resultado |
+|------|-------|-----------|
+| Fase 0 | Arquitectura | Base sólida |
+| Fase 1 | MVP | Ventas funcionando |
+| Fase 2 | Seguridad | Control y pagos formales |
+| Fase 3 | Escalabilidad | Preparado para crecimiento |
+| Fase 4 | Optimización | Alto rendimiento y SEO |
+| Fase 5 | Enterprise | Nivel corporativo |
+
+---
+
+# 🎯 Estrategia Recomendada
+
+Para un proyecto real de droguería:
+
+1. Ejecutar FASE 0 y FASE 1 primero.
+2. Implementar FASE 2 antes de crecimiento fuerte.
+3. Activar FASE 3 y 4 según necesidad.
+4. FASE 5 cuando el negocio escale.
+
+---
+
+**Estado actual:** Planificación completa.  
